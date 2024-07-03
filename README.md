@@ -98,6 +98,8 @@ From this color palette we used the following colors.
 
 - I also used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text. as these are the most common you will generally see in webdesign
 
+- Finally, and later in development I oped to look into incorporating greens for a more pleasant color we had `#E1F0DA` `#D4E7C5` `#BFD8AF` `#99BC85` to choose from and used them in some places for added accessibility.
+
 <img src="documentation/color-hex-purple.jpg" width=300px>
 <img src="documentation/color-hex-green.png" width=330px>
 
@@ -113,7 +115,7 @@ For a secondary font I opted for [Oswald](https://fonts.google.com/specimen/Oswa
 
 ### Imagery
 
-As the app is abut mindfulness and meditation I have opted to fill it with imagery depicting such, for various banners and hero pages we can see people practicing meditation or yoga and as well as this each specific example of wellness showcases imagery representing it.
+As the app is about mindfulness and meditation I have opted to fill it with imagery depicting such, for various banners and hero pages we can see people practicing meditation or yoga and as well as this each specific example of wellness showcases imagery representing it.
 
 ### Wireframes
 
