@@ -61,3 +61,65 @@ There is never a bad time to practice bettering your mental and physical health.
   - [Acknowledgments](#acknowledgments)
 
 ---
+
+## User Experience (UX)
+
+### User Stories
+
+#### First Time Visitor Goals
+
+- I want to have an app that can allow me to easily access information and tutorials on how to do various mindful practices such as meditation and yoga
+- I have developed the site with responsiveness for web browsers, tablets and mobile in mind.
+- I want the site to be easy to navigate.
+
+#### Returning Visitor Goals
+
+- I want to be able to pick from multiple different meditaiton and yoga types as well as have the ability to navigate to more
+- I want to be able to sign up to the app for the app for future features and more
+- I want to be able to suggest my own ideas for future updates
+
+---
+
+## Design
+
+### Colour Scheme
+
+For the colors I decided to opt for a colorset that is similar to lilac as that is a flower known for wellness and healing, as well as this it creates for a warmer more approachable design.
+
+In my css file I have used variables to declare colours, and then used these throughout the css file. Variable are a fantastic way to enforce consistency and allow us to create more complex code that we don't need to alter at every turn.
+
+From this color palette we used the following colors.
+
+- I used `#2b1E25` as our darker background color for when we're overlaying white text or if we just need a darker tone in general
+
+- I used `BF94BC` as our primary lighter color for when we want to do hovering on the navbar
+
+- I then used `#603B61` and `#D2B0D0` as backup colors or for when i needed a shade lighter in certain areas
+
+- I also used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text. as these are the most common you will generally see in webdesign
+
+<img src="documentation/color-hex-purple.jpg" width=300px>
+<img src="documentation/color-hex-green.png" width=330px>
+
+### Typography
+
+For our typography I opted for two primary fonts, firstly I went with [Sen](https://fonts.google.com/specimen/Sen?query=sen#glyphs), this font is geometric and neutral font with a soft, humanist touch, it's easy to read and is practical. Similar to how we want to our application to look.
+
+<img src="documentation/sen-example.png" width=500px>
+
+For a secondary font I opted for [Oswald](https://fonts.google.com/specimen/Oswald) this is a tried and true font that works in every occasion, and again looks neat, sensible and is great for paragraphs and headings alike.
+
+<img src="documentation/oswald-example.png" width=500px>
+
+### Imagery
+
+As the website is called The Quiz Arms, I wanted to use an image for the page background of a pub to give the user the feeling that they are participating in a pub quiz.
+
+### Wireframes
+
+Wireframes were created for mobile, tablet and desktop using balsamiq.
+
+![Home Page](documentation/wireframes/homewireframe.webp)
+![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
+![Game Page](documentation/wireframes/gamewireframe.webp)
+![High Scores Page](documentation/wireframes/highscorewireframe.webp)
