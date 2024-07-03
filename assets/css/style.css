@@ -77,7 +77,7 @@ header {
   position: fixed;
   z-index: 99;
   width: 100%;
-  box-shadow: 0 2px 2px var(--black-purple);
+  box-shadow: 0 2px 2px var(--dark-purple);
   /* align items in a row */
   display: flex;
   justify-content: space-between;
@@ -117,7 +117,7 @@ nav {
   /* sets the top of the navbox to be bottom of the parent */
   top: 100%;
   padding-top: 10px;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 /* Nav toggle */
@@ -139,9 +139,38 @@ main {
   /* Make main element take up any surplus space and push footer down */
   flex: 1 0 auto;
   margin-top: 47px;
-  /* Flex properties for chil elements */
+  /* Flex properties for child elements */
   display: flex;
   flex-direction: column;
+}
+
+/* hero content */
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("../images/hero.jpg") no-repeat center center/cover;
+  position: relative;
+}
+
+/* hero cover text*/
+#cover-text {
+  background-color: var(--shadow-color);
+  opacity: 0.7;
+  font-size: 130%;
+  position: absolute;
+  bottom: 30px;
+  width: 90%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+#cover-text > h2 {
+  color: var(--white-color);
+}
+
+#cover-text > h3 {
+  color: var(--white-color);
 }
 
 /*------ FOOTER STYLES ------*/
