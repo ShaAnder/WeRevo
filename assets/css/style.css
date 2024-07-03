@@ -1,14 +1,14 @@
 /*------ GOOGLE FONT IMPORT ------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
 
 /*------ ROOT VARIABLES ------*/
 
 :root {
   /* TYPOGRAPHY */
   --sen: "Sen", serif;
-  --oswald: "Oswald", sans-serif;
+  --tenor: "Tenor Sans", sans-serif;
 
   /* COLOURS */
 
@@ -57,7 +57,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--tenor), sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
@@ -77,11 +77,13 @@ header {
   position: fixed;
   z-index: 99;
   width: 100%;
+  height: 50px;
   box-shadow: 0 2px 2px var(--dark-purple);
   /* align items in a row */
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding-top: 6px;
 }
 
 header a {
@@ -116,7 +118,7 @@ nav {
   display: none;
   /* sets the top of the navbox to be bottom of the parent */
   top: 100%;
-  padding-top: 10px;
+  padding-top: 20px;
   opacity: 0.85;
 }
 
@@ -138,7 +140,7 @@ nav {
 main {
   /* Make main element take up any surplus space and push footer down */
   flex: 1 0 auto;
-  margin-top: 47px;
+  margin-top: 40px;
   /* Flex properties for child elements */
   display: flex;
   flex-direction: column;
@@ -146,31 +148,37 @@ main {
 
 /* hero content */
 #hero {
-  height: 600px;
-  width: 100%;
-  background: url("../images/hero.jpg") no-repeat center center/cover;
+  height: 400px;
+  width: 111%;
+  right: 10%;
+  background: url("../images/hero.png") no-repeat center center/cover;
   position: relative;
 }
 
 /* hero cover text*/
 #cover-text {
-  background-color: var(--shadow-color);
-  opacity: 0.7;
-  font-size: 130%;
+  background-color: var(--dark-purple);
+  opacity: 0.8;
+  font-size: 150%;
   position: absolute;
+  left: 10%;
   bottom: 30px;
   width: 90%;
-  min-height: 200px;
-  padding-top: 40px;
-  padding-left: 25px;
+  min-height: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
 }
 
 #cover-text > h2 {
-  color: var(--white-color);
+  color: var(--off-white);
+  font-family: var(--tenor);
 }
 
 #cover-text > h3 {
-  color: var(--white-color);
+  color: var(--off-white);
+  font-family: var(--tenor);
+  font-weight: 300;
 }
 
 /*------ FOOTER STYLES ------*/
