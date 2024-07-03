@@ -1,0 +1,161 @@
+/*------ GOOGLE FONT IMPORT ------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+/*------ ROOT VARIABLES ------*/
+
+:root {
+  /* TYPOGRAPHY */
+  --sen: "Sen", serif;
+  --oswald: "Oswald", sans-serif;
+
+  /* COLOURS */
+
+  /* For the various colors i opted to load all the colors we have from the pallettes in, while some will go unused it's good to have them all loaded for future testing or changes */
+
+  /* purple colors */
+  --black-purple: #2b1e25;
+  --dark-purple: #603b61;
+  --med-purple: #ae58af;
+  --light-purple: #af6fab;
+  --lighter-purple: #bf94bc;
+  --lightest-purple: #d2b0d0;
+
+  /* green colors */
+
+  --dark-green: #99bc85;
+  --light-green: #bfd8af;
+  --lighter-green: #d4e7c5;
+  --lightest-green: #e1f0da;
+
+  /* main colors */
+
+  --off-white: #f5f5f5;
+  --black: #000000;
+}
+
+/*------ CLEAN SLATE STYLES ------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*------ GENERIC STYLES ------*/
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* generic project styles */
+  color: var(--black-purple);
+  font-family: var(--sen);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+}
+
+/* utility hide class */
+
+.hidden {
+  display: none;
+}
+
+/*------ HEADER STYLES ------*/
+
+header {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px var(--black-purple);
+  /* align items in a row */
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
+}
+
+#menu > li {
+  margin-bottom: 1em;
+}
+
+.active {
+  border-bottom: 1px solid var(--black-purple);
+}
+
+/* Navbar styles + dropdown toggle */
+
+nav {
+  position: absolute;
+  background-color: var(--black-purple);
+  color: var(--off-white);
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px var(--dark-purple);
+  display: none;
+  /* sets the top of the navbox to be bottom of the parent */
+  top: 100%;
+  padding-top: 10px;
+  opacity: 0.9;
+}
+
+/* Nav toggle */
+#nav-toggle:checked ~ nav {
+  display: block;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
+}
+
+/*------ MAIN STYLES ------*/
+
+main {
+  /* Make main element take up any surplus space and push footer down */
+  flex: 1 0 auto;
+  margin-top: 47px;
+  /* Flex properties for chil elements */
+  display: flex;
+  flex-direction: column;
+}
+
+/*------ FOOTER STYLES ------*/
+
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: var(--black-purple);
+}
