@@ -148,7 +148,7 @@ main {
 
 /* hero content */
 #hero {
-  height: 600px;
+  height: 550px;
   width: 100%;
 
   background: url("../images/hero.png") no-repeat center center/cover;
@@ -232,6 +232,7 @@ hr {
 
 /* Sign-up */
 #signup {
+  position: relative;
   background: url("../images/signup.jpg");
   background-size: cover;
   background-position: 75%;
@@ -240,6 +241,10 @@ hr {
 }
 
 #signup-form {
+  position: absolute;
+  top: 25px;
+  right: 5%;
+  width: 90%;
   color: #ffffff;
   background-color: rgba(60, 60, 60, 0.6);
   padding: 20px;
@@ -266,7 +271,6 @@ hr {
   display: inline-block;
   justify-items: center;
   letter-spacing: 1px;
-
   width: 95%;
 }
 
@@ -274,9 +278,14 @@ hr {
   margin-top: 20px;
   padding: 15px 32px;
   border-radius: 2px;
-  background-color: var(--lightest-purple);
+  background-color: var(--dark-purple);
   color: #fafafa;
   font-size: 100%;
+  transition-duration: 0.4s;
+}
+
+.join-button:hover {
+  background-color: var(--med-purple);
 }
 
 /*------ FOOTER STYLES ------*/
@@ -295,21 +304,16 @@ hr {
   color: var(--black-purple);
 }
 
+/*------ MEDIA QUERY LARGER PHONES 390 + ------*/
+@media screen and (min-width: 390px) {
+  #signup-form {
+    top: 110px;
+  }
+}
+
 /* Media Query: Tablets and larger (768px+) */
 @media screen and (min-width: 768px) {
   /* header */
-  nav {
-    display: flex;
-    position: absolute;
-    top: auto;
-    left: 44%;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-    color: var(--black-purple);
-    background-color: white;
-  }
-
   header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -323,6 +327,19 @@ hr {
     justify-content: space-between;
     align-items: baseline;
     padding-top: 6px;
+  }
+
+  nav {
+    display: flex;
+    position: relative;
+    top: auto;
+    bottom: 10px;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    color: var(--black-purple);
+    background-color: transparent;
+    padding-top: 0%;
   }
 
   #menu {
@@ -347,45 +364,38 @@ hr {
     margin-top: 79px;
   }
 
-  #cover-text {
-    width: 300px;
-    right: 50px;
-  }
-
   /* Reasons Section */
-  #why-us-physical,
-  #why-us-mental {
+  #why-revo,
+  #your-best-self {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
 
-  #why-us-physical > div,
-  #why-us-mental > div {
+  #why-revo > div,
+  #your-best-self > div {
     width: 75%;
   }
 
-  #why-us-mental > div {
+  #your-best-self > div {
     text-align: end;
     align-self: flex-end;
   }
 
-  /* gallery */
-  #photos {
-    column-count: 3;
-  }
-
-  /* Signup */
+  /* Signup changes */
   #signup {
-    background-position: center;
     position: relative;
+    background: url("../images/signup.jpg") no-repeat left center/cover;
+    background-position: 90%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
   }
 
   #signup-form {
     max-width: 400px;
     position: absolute;
-    left: 10%;
-    top: 150px;
+    right: 5%;
+    top: 200px;
   }
 
   .text-input:hover {
@@ -398,25 +408,45 @@ hr {
   }
 }
 
-/* Laptops and desktops, 992px and up) */
+/*------ MEDIA QUERY BIGGER TABLET ------*/
+@media screen and (min-width: 850px) {
+  #menu a:hover {
+    border-bottom: 1px solid var(--black-purple);
+  }
+}
+
+/*------ MEDIA QUERY LAPTOP / DESKTOP 992 + ------*/
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid var(--black-purple);
   }
-
-  /* gallery */
-  #photos {
-    column-count: 4;
-  }
 }
 
-/* screens 1200px and up */
+/*------ MEDIA QUERY LAPTOP / DESKTOP 1200 + ------*/
 
 @media screen and (min-width: 1200px) {
   /* Reasons Section */
+
+  #reasons > h2 {
+    font-size: 300%;
+  }
+
   #why-us {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    font-size: 110%;
+  }
+
+  #circle-cover-bg {
+    height: 100vw;
+    width: 100vw;
+    margin: 20px;
+    border-radius: 50%;
+    background: url("../images/ethos.png") no-repeat center center/cover;
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
   }
 
   #why-us div {
@@ -427,15 +457,71 @@ hr {
     order: 0;
   }
 
-  #why-us-mental {
+  #your-best-self {
     order: 1;
   }
 
-  #why-us-mphysical > div {
+  #why-us > div {
     align-self: flex-start;
   }
 
-  #why-us-mental > div {
+  #your-best-self > div {
     align-self: flex-end;
+  }
+
+  /* Signup Section */
+  #signup {
+    position: relative;
+    background: url("../images/signup.jpg") no-repeat left center/cover;
+    background-position: 110%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+  }
+
+  #signup-form {
+    width: 500px;
+    height: 570px;
+    position: absolute;
+    right: 5%;
+    top: 200px;
+  }
+
+  .text-input:hover {
+    border-color: #f16c6b;
+  }
+
+  .join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+  }
+
+  .text-input {
+    background: transparent;
+    color: var(--lightest-purple);
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    height: 25px;
+    width: 100%;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+  }
+
+  .radio-buttons {
+    display: inline-block;
+    justify-items: center;
+    font-size: 130%;
+    line-height: 40px;
+    letter-spacing: 1px;
+    width: 95%;
+  }
+
+  .join-button {
+    width: 300px;
+    height: 70px;
+    margin-top: 20px;
+    padding: 15px 32px;
+    border-radius: 2px;
+    color: #fafafa;
+    font-size: 100%;
   }
 }

@@ -77,9 +77,9 @@ Full testing was performed on the following devices:
 - Laptop:
   - Asus Zenbook
 - Mobile Devices:
-  - Galaxy A33 5g
-  - Galaxy Fold
-  - Iphone12 pro
+  - Galaxy Fold (small mobile)
+  - Galaxy S8+ (mid sized phone)
+  - Ipad Mini (tablet)
 
 Each device tested the site using the following browsers:
 
