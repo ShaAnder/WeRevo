@@ -113,13 +113,13 @@ For a secondary font I opted for [Oswald](https://fonts.google.com/specimen/Oswa
 
 ### Imagery
 
-As the website is called The Quiz Arms, I wanted to use an image for the page background of a pub to give the user the feeling that they are participating in a pub quiz.
+As the app is abut mindfulness and meditation I have opted to fill it with imagery depicting such, for various banners and hero pages we can see people practicing meditation or yoga and as well as this each specific example of wellness showcases imagery representing it.
 
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-![Home Page](documentation/wireframes/homewireframe.webp)
-![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
-![Game Page](documentation/wireframes/gamewireframe.webp)
-![High Scores Page](documentation/wireframes/highscorewireframe.webp)
+![Home Page](documentation/wireframes/home.png)
+![Signup Page](documentation/wireframes/signup.png)
+![Activity View](documentation/wireframes/activityview.png)
+![Activity Example](documentation/wireframes/activityexample.png)
