@@ -92,7 +92,7 @@ header a {
 }
 
 #menu {
-  font-size: 110%;
+  font-size: 150%;
   letter-spacing: 4px;
   list-style-type: none;
 }
@@ -148,9 +148,9 @@ main {
 
 /* hero content */
 #hero {
-  height: 400px;
-  width: 111%;
-  right: 10%;
+  height: 600px;
+  width: 100%;
+
   background: url("../images/hero.png") no-repeat center center/cover;
   position: relative;
 }
@@ -161,9 +161,9 @@ main {
   opacity: 0.8;
   font-size: 150%;
   position: absolute;
-  left: 10%;
-  bottom: 30px;
-  width: 90%;
+  bottom: 0;
+
+  width: 100%;
   min-height: 120px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -179,6 +179,55 @@ main {
   color: var(--off-white);
   font-family: var(--tenor);
   font-weight: 300;
+}
+
+/* Reasons Section */
+
+#reasons {
+  width: 90%;
+  margin: 20px auto;
+}
+
+#reasons > h2 {
+  font-size: 280%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#why-revo > div,
+#your-best-self > div {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#benefits p {
+  padding: 0 20px;
+}
+
+#benefits > h3 {
+  color: var(--shadow-color);
+}
+
+hr {
+  border-top: 1px solid var(--shadow-color);
+  margin: 5px 0;
+}
+
+#circle-cover-bg {
+  height: 90vw;
+  width: 90vw;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: url("../images/ethos.png") no-repeat center center/cover;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#benefits-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*------ FOOTER STYLES ------*/
