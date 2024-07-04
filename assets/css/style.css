@@ -346,7 +346,6 @@ hr {
   background: url(../images/meditation2.webp) no-repeat top center/cover;
   height: 550px;
   width: 100%;
-
 }
 
 .description-title {
@@ -356,16 +355,16 @@ hr {
   position: relative;
   bottom: 1;
   width: 100%;
-  min-height: 120px;
+  height: 100px;
   padding-top: 20px;
-  padding-bottom: 20px;
-  
+  padding-bottom: 20px;  
 }
 
 .description-title > h2 {
   color: var(--off-white);
   font-family: var(--sen);
-  font-size: 300%;
+  font-size: 200%;
+  padding-top: 5px;
   padding-left: 5%;
 }
 
@@ -428,12 +427,12 @@ hr {
 #signup-form {
   position: absolute;
   top: 25px;
-  right: 5%;
-  width: 90%;
+  right: 7.5%;
+  width: 85%;
   color: #ffffff;
   background-color: rgba(60, 60, 60, 0.6);
   padding: 20px;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 #signup-form h2 {
@@ -659,18 +658,69 @@ hr {
   #menu a:hover {
     border-bottom: 1px solid var(--black-purple);
   }
-}
 
-/*------ MEDIA QUERY LAPTOP / DESKTOP 992 + ------*/
-@media screen and (min-width: 992px) {
-  #menu a:hover {
-    border-bottom: 1px solid var(--black-purple);
+  #motd-cover-text {
+    display: block;
+    background-color: var(--off-white);
+    opacity: 80%;
+    margin-left: 20%;
+    padding: 3% 5% 3% 5%;
+    width: 75%;
+    height: 180px;
+    
   }
+
+  #motd-cover-text h3{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: right;
+  }
+
+  #motd-cover-text h2{
+    font-size: 100%;
+    line-height: 40px;
+  }
+
+  .activity #activity-yoga h2 {
+    width: 300px;
+    height: 100px;
+    top: 82%;
+    left: 55%;
+    margin-left: -160px;
+    padding: 0;
+    padding-top: 35px;
+    
+  }
+  
+  .activity #activity-yoga img{
+    width: 300px;
+    top: 40%;
+    left: 55%;
+  }
+  
+  .activity #activity-meditation h2 {
+    width: 300px;
+    height: 100px;
+    top: 82%;
+    left: 83%;
+    margin-left: -160px;
+    padding: 0;
+    padding-top: 35px;
+  }
+  
+  .activity #activity-meditation img{
+    width: 300px;
+    top: 40%;
+    left: 83%;
+  }
+
 }
 
-/*------ MEDIA QUERY LAPTOP / DESKTOP 1200 + ------*/
 
-@media screen and (min-width: 1200px) {
+/*------ MEDIA QUERY DESKTOP 1280 + ------*/
+
+@media screen and (min-width: 1500px) {
 
   /* Reasons Section */
 

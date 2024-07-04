@@ -68,15 +68,13 @@ There is never a bad time to practice bettering your mental and physical health.
 
 #### First Time Visitor Goals
 
-- I want to have an app that can allow me to easily access information and tutorials on how to do various mindful practices such as meditation and yoga
+- I want to have an app that can allow me to easily access information about meditation and yoga and in the future have tutorials on how to do these practices
 - I have developed the site with responsiveness for web browsers, tablets and mobile in mind.
 - I want the site to be easy to navigate.
 
 #### Returning Visitor Goals
 
-- I want to be able to pick from multiple different meditaiton and yoga types as well as have the ability to navigate to more
 - I want to be able to sign up to the app for the app for future features and more
-- I want to be able to suggest my own ideas for future updates
 
 ---
 
@@ -98,10 +96,7 @@ From this color palette we used the following colors.
 
 - I also used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text. as these are the most common you will generally see in webdesign
 
-- Finally, and later in development I oped to look into incorporating greens for a more pleasant color we had `#E1F0DA` `#D4E7C5` `#BFD8AF` `#99BC85` to choose from and used them in some places for added accessibility.
-
 <img src="documentation/color-hex-purple.jpg" width=300px>
-<img src="documentation/color-hex-green.png" width=330px>
 
 ### Typography
 
@@ -109,9 +104,9 @@ For our typography I opted for two primary fonts, firstly I went with [Sen](http
 
 <img src="documentation/sen-example.png" width=500px>
 
-For a secondary font I opted for [Oswald](https://fonts.google.com/specimen/Oswald) this is a tried and true font that works in every occasion, and again looks neat, sensible and is great for paragraphs and headings alike.
+For a secondary font I opted for [Tenor](https://fonts.google.com/specimen/Tenor+sans) this is a tried and true font that works in every occasion, and again looks neat, sensible and is great for paragraphs and headings alike.
 
-<img src="documentation/oswald-example.png" width=500px>
+<img src="documentation/tenor-example.png" width=500px>
 
 ### Imagery
 
@@ -125,3 +120,141 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 ![Signup Page](documentation/wireframes/signup.png)
 ![Activity View](documentation/wireframes/activityview.png)
 ![Activity Example](documentation/wireframes/activityexample.png)
+
+### Features
+
+The website is comprised of a home page, an activities page, pages giving the user information about the disciplines of yoga and meditation as well as a signup page for future features.
+
+All Pages on the website are responsive and have:
+
+* A favicon in the browser tab.
+
+  ![favicon](documentation/favicon-image.png)
+
+* The title of the site at the top of every page. This title also acts as a link back to the home page.
+  ![WeRevo Title](documentation/title.png)
+
+#### The Home Page
+
+The home page of WeRevo is a simple yet elegant page mirroring the themes and imagery of wellness, I took inspiration from the love running project for the landing page as it fits the idea of simplistic and beautiful. While also being detailed yet to the point. Allowing the user to scroll 
+
+![Home page image](documentation/features/indexpage.png)
+
+This page includes some information about the company and what we do / why wellness is so important.
+
+
+#### The Activities Page
+
+The game page displays the main page of the app, an activities page, it allows the user to view the MOTD (message of the day), which is an inspirational quote followed by being able to click on the yoga or meditation sections. 
+
+Clicking either of these sections will lead the user to the relevant page, which at the moment only contains some fun facts about yoga and meditation but in the future aims to cover guides and tutorials on how to do the disciplines correctly
+
+![Activities Page Image](documentation/features/activitiespage.png)
+
+![Yoga Page Image](documentation/features/yogapage.png)
+
+![Meditation Page Image](documentation/features/meditationpage.png)
+
+#### The Signup Page
+
+Finally we have the signup page, this is a page that for now links to code institutes form dump, but as a planned feature will allow a user to signup to the website, to allow them to save their favourites, submit new ideas and get wellness tips sent to them via a newsletter.
+
+![Signup Page Image](documentation/features/signuppage.png)
+
+#### Future Implementations
+
+As this app is merely a static component showcasing some tips ect for now, i have a lot id like to do with it in the future, first and foremost id like to rebuild it using django templating to allow for cleaner and easier loading.
+
+Other implementations I want to consider are:
+
+1. Building a database to store logins, and creating a working login system
+2. Adding yoga and meditation practices and tutorials from a local api or db to populate
+for the user to view and scroll.
+3. Adding the ability for a user to add their own 
+4. Adding a meetups feature so that users can organize their own wellness sessions
+
+These are some of many ideas I have for this application
+
+### Accessibility
+
+While I think the website does have a good host of accessibility i do wish to add more options where avaible, such as a wider range of support for devices and ARIA features.
+- - -
+
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS
+
+### Frameworks, Libraries & Programs Used
+
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features
+
+
+* [Favicon.io](https://favicon.io/) To create favicon.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+* [Shields.io](https://shields.io/) To add badges to the README
+
+* [Open Trivia DataBase](https://opentdb.com/) - API used for the trivia questions.
+
+* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - a google chrome extension to enable you to view JSON as raw data or parsed.
+
+* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
+
+* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
+## Testing
+
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
