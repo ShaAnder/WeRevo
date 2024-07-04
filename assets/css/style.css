@@ -489,11 +489,31 @@ hr {
 
   /* activity styling */
 
+  
+  #motd-cover-text {
+    display: block;
+    background-color: var(--off-white);
+    opacity: 80%;
+    padding: 3% 7.5% 3% 7.5%;
+    width: 95%;
+    height: 180px;
 
+  }
+
+  #motd-cover-text h3{
+    font-size: 43px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  #motd-cover-text h2{
+    font-size: 100%;
+    line-height: 40px;
+  }
 
   .activity #activity-yoga h2 {
     width: 300px;
-    top: 60%;
+    top: 70%;
     left: 30%;
     margin-left: -160px;
     
@@ -501,21 +521,21 @@ hr {
   
   .activity #activity-yoga img{
     width: 300px;
-    top: 30%;
+    top: 40%;
     left: 30%;
     margin-left: -160px;   
   }
   
   .activity #activity-meditation h2 {
     width: 300px;
-    top: 60%;
+    top: 70%;
     left: 73%;
     margin-left: -160px;
   }
   
   .activity #activity-meditation img{
     width: 300px;
-    top: 30%;
+    top: 40%;
     left: 73%;
     margin-left: -160px;
     
