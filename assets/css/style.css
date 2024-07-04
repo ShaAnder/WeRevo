@@ -451,8 +451,8 @@ hr {
 
 
 #social-networks li {
-  font-size: 200%;
-  padding: 0;
+  font-size: 160%;
+  padding-top: 1%;
 }
 
 #social-networks li a {
@@ -471,18 +471,7 @@ hr {
 @media screen and (min-width: 768px) {
   /* header */
   header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
     height: 79px;
-    box-shadow: 0 2px 2px var(--dark-purple);
-    /* align items in a row */
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-top: 6px;
   }
 
   nav {
@@ -502,9 +491,6 @@ hr {
     display: flex;
   }
 
-  #menu > li {
-    padding-left: 1rem;
-  }
 
   .nav-toggle-label {
     display: none;
@@ -542,13 +528,7 @@ hr {
 
   
   #motd-cover-text {
-    display: block;
-    background-color: var(--off-white);
-    opacity: 80%;
-    padding: 3% 7.5% 3% 7.5%;
-    width: 95%;
     height: 180px;
-
   }
 
   #motd-cover-text h3{
