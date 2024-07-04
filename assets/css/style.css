@@ -228,7 +228,6 @@ hr {
 #circle-cover-bg {
   height: 90vw;
   width: 90vw;
-  margin-bottom: 20px;
   border-radius: 50%;
   background: url("../images/ethos.webp") no-repeat center center/cover;
   position: relative;
@@ -238,7 +237,6 @@ hr {
 
 #why-us-image {
   order: 2;
-  padding: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -343,7 +341,7 @@ hr {
 }
 
 .activity img, .activity h2 {
-  opacity: .7;
+  opacity: .85;
 
 }
 
@@ -544,6 +542,7 @@ hr {
   /* header */
   header {
     height: 79px;
+    
   }
 
   nav {
@@ -563,6 +562,9 @@ hr {
     display: flex;
   }
 
+  #menu > li {
+    padding-left: 1rem;
+  }
 
   .nav-toggle-label {
     display: none;
@@ -582,17 +584,17 @@ hr {
   #why-revo,
   #your-best-self {
     display: flex;
-    flex-direction: column;
-    width: 100%;
   }
 
   #why-revo > div,
   #your-best-self > div {
     width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #your-best-self > div {
-    text-align: end;
+    text-align: center;
     align-self: flex-end;
   }
 
@@ -614,36 +616,30 @@ hr {
     line-height: 40px;
   }
 
-  .activity #activity-yoga h2 {
-    width: 300px;
-    top: 70%;
-    left: 30%;
-    margin-left: -160px;
-    
+  /*activity link (to yoga or meditation */
+
+  #activity-container {
+    flex-direction: row;
+    left: 50%;
+    margin-left: -340px;
   }
   
-  .activity #activity-yoga img{
+  .activity img {
     width: 300px;
-    top: 40%;
-    left: 30%;
-    margin-left: -160px;   
-  }
-  
-  .activity #activity-meditation h2 {
-    width: 300px;
-    top: 70%;
-    left: 73%;
-    margin-left: -160px;
-  }
-  
-  .activity #activity-meditation img{
-    width: 300px;
-    top: 40%;
-    left: 73%;
-    margin-left: -160px;
-    
   }
 
+  .activity {
+    padding: 20px;
+  }
+
+  .activity h2 {
+    height: 60px;
+    font-size: 160%;
+    background-color: var(--off-white);
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 5%;  
+  }
   /* yoga / meditation description style */
 
   .description-text {
