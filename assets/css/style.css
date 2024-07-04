@@ -331,13 +331,62 @@ hr {
   /* center image */
   left: 50%;
   margin-left: -125px;
+}
+
+/*------ YOGA / MEDITATION DESCRIPTION PAGE ------*/
+
+
+#yoga-hero {
+  background: url(../images/yoga2.webp) no-repeat center center/cover;
+  height: 400px;
+  width: 100%;
+}
+
+.description-title {
+  background-color: var(--dark-purple);
+  opacity: 0.85;
+  font-size: 130%;
+  position: relative;
+  bottom: 1;
+  width: 100%;
+  min-height: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   
 }
 
-/*------ YOGA PAGE ------*/
+.description-title > h2 {
+  color: var(--off-white);
+  font-family: var(--sen);
+  font-size: 300%;
+  padding-left: 5%;
+}
 
-#yoga-page {
-  background-image: url();
+.description-text {
+  padding: 2em;
+  font-size: 90%;
+}
+
+.description-text ul  {
+  list-style: none;
+}
+
+#circle-cover-bg-breathing {
+  display: flex;
+  height: 90vw;
+  width: 90vw;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: url("../images/properbreathing.webp") no-repeat center center/cover;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#yoga-proper-breathing-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*------ SIGNUP PAGE -------*/
@@ -394,9 +443,13 @@ hr {
   font-size: 100%;
   transition-duration: 0.4s;
 }
+.text-input:hover {
+  border-color: var(--lighter-purple);
+}
 
 .join-button:hover {
-  background-color: var(--med-purple);
+  background-color: var(--lightest-purple);
+  color: var(--black-purple);
 }
 
 /*------ FOOTER STYLES ------*/
@@ -549,6 +602,14 @@ hr {
     
   }
 
+  /* yoga / meditation description style */
+
+  .description-text {
+    padding: 2em;
+    font-size: 130%;
+  }
+  
+
   /* Signup changes */
   #signup {
     position: relative;
@@ -565,14 +626,6 @@ hr {
     top: 200px;
   }
 
-  .text-input:hover {
-    border-color: #f16c6b;
-  }
-
-  .join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
-  }
 
 }
 
@@ -697,6 +750,53 @@ hr {
     left: 83%;
   }
 
+  /* yoga / meditation page styling */
+
+  .activity-description {
+    display: flex;
+  }
+
+  .description-title {
+    height: 100px;
+  }
+
+  .description-title > h2 {
+    color: var(--off-white);
+    font-family: var(--sen);
+    font-size: 300%;
+    padding-left: 5%;
+    width: 60%;
+  }
+  
+  .description-text {
+    padding: 2em;
+    font-size: 130%;
+    width: 60%;
+    order:0;
+  }
+  
+  .description-text ul  {
+    list-style: none;
+  }
+
+  #circle-cover-bg-breathing {
+    display: flex;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: url("../images/properbreathing.webp") no-repeat center center/cover;
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  
+  #yoga-proper-breathing-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   /* Signup Section */
   #signup {
     position: relative;
@@ -712,15 +812,6 @@ hr {
     position: absolute;
     right: 5%;
     top: 200px;
-  }
-
-  .text-input:hover {
-    border-color: #f16c6b;
-  }
-
-  .join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
   }
 
   .text-input {
