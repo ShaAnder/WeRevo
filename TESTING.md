@@ -18,7 +18,7 @@ Visit the deployed site: [We Revo](https://shaAnder.github.io/weRevo)
 
 Throughout the entire build testing was on going, each new feature was rigorously tested to make sure it was working when used.
 
-To aid in development google dev tools, as well as lighthouse and the w3 validators were utilized to ensure everything worked to standard
+To aid in development google dev tools, as well as lighthouse, the w3 validators, spellcheck and disabiliy view plugins were utilized were utilized to ensure everything worked to standard
 
 I also went through each page and tested the features vs my established user stories to ensure it was all working correctly
 
@@ -30,7 +30,11 @@ I also went through each page and tested the features vs my established user sto
 
 [W3C](https://validator.w3.org/) was used to validate the html and css to check for errors and consistency
 
-(images of validation here)
+* [index.html]() - Passed.
+* [disciplines.html]() - Passed.
+* [yoga.html]() - Passed.
+* [meditation.html]() - Passed.
+* [signup.html]() - Passed.
 
 ---
 
