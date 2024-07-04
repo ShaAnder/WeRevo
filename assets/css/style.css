@@ -338,8 +338,15 @@ hr {
 
 #yoga-hero {
   background: url(../images/yoga2.webp) no-repeat center center/cover;
-  height: 400px;
+  height: 550px;
   width: 100%;
+}
+
+#meditation-hero {
+  background: url(../images/meditation2.webp) no-repeat top center/cover;
+  height: 550px;
+  width: 100%;
+
 }
 
 .description-title {
@@ -384,6 +391,24 @@ hr {
 }
 
 #yoga-proper-breathing-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#circle-cover-bg-trataka {
+  display: flex;
+  height: 90vw;
+  width: 90vw;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: url("../images/candle.webp") no-repeat center center/cover;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#yoga-trataka-image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -792,6 +817,24 @@ hr {
   }
   
   #yoga-proper-breathing-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #circle-cover-bg-trataka {
+    display: flex;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: url("../images/candle.webp") no-repeat center center/cover;
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  
+  #yoga-trataka-image {
     display: flex;
     align-items: center;
     justify-content: center;
