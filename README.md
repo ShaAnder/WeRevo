@@ -208,9 +208,7 @@ HTML, CSS
 
 * [Shields.io](https://shields.io/) To add badges to the README
 
-* [Open Trivia DataBase](https://opentdb.com/) - API used for the trivia questions.
-
-* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - a google chrome extension to enable you to view JSON as raw data or parsed.
+* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1) - a chrome extension to rate the site based on performance, accessibility, seo and Best practices
 
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
 
@@ -222,16 +220,15 @@ HTML, CSS
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
+The site is deployed using GitHub Pages - [WeRevo](https://shaAnder.github.io/werevo/).
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
+2. Go to the repository for this project, [shaAnder/werevo](https://github.com/shaAnder/werevo).
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
-6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
 ### Local Development
 
@@ -240,7 +237,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [shaAnder/werevo](https://github.com/shaAnder/werevo)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -248,7 +245,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [shaAnder/werevo](https://github.com/shaAnder/werevo)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.

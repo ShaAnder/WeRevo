@@ -12,8 +12,6 @@
 
   /* COLOURS */
 
-  /* For the various colors i opted to load all the colors we have from the pallettes in, while some will go unused it's good to have them all loaded for future testing or changes */
-
   /* purple colors */
   --black-purple: #2b1e25;
   --dark-purple: #603b61;
@@ -21,13 +19,6 @@
   --light-purple: #af6fab;
   --lighter-purple: #bf94bc;
   --lightest-purple: #d2b0d0;
-
-  /* green colors */
-
-  --dark-green: #99bc85;
-  --light-green: #bfd8af;
-  --lighter-green: #d4e7c5;
-  --lightest-green: #e1f0da;
 
   /* main colors */
 
@@ -69,6 +60,7 @@ h3 {
 .hidden {
   display: none;
 }
+
 
 /*------ HEADER STYLES ------*/
 
@@ -335,6 +327,9 @@ hr {
 
 /*------ YOGA / MEDITATION DESCRIPTION PAGE ------*/
 
+.activity-description-li {
+  padding-top: 15px;
+}
 
 #yoga-hero {
   background: url(../images/yoga2.webp) no-repeat center center/cover;
