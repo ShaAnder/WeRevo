@@ -151,7 +151,7 @@ main {
 #hero {
   height: 550px;
   width: 100%;
-  background: url("../images/hero.png") no-repeat center center/cover;
+  background: url("../images/hero.webp") no-repeat center center/cover;
   position: relative;
 }
 
@@ -217,7 +217,7 @@ hr {
   width: 90vw;
   margin-bottom: 20px;
   border-radius: 50%;
-  background: url("../images/ethos.png") no-repeat center center/cover;
+  background: url("../images/ethos.webp") no-repeat center center/cover;
   position: relative;
   max-width: 200px;
   max-height: 200px;
@@ -233,7 +233,7 @@ hr {
 
 #activity-banner {
   position: relative;
-  background: url("../images/activities.jpg");
+  background: url("../images/activities.webp");
   background-size: cover;
   height: 850px;
   background-position: 70%;
@@ -334,11 +334,17 @@ hr {
   
 }
 
+/*------ YOGA PAGE ------*/
+
+#yoga-page {
+  background-image: url();
+}
+
 /*------ SIGNUP PAGE -------*/
 
 #signup {
   position: relative;
-  background: url("../images/signup.jpg");
+  background: url("../images/signup.webp");
   background-size: cover;
   background-position: 0%;
   padding: 20px 10% 0 10%;
@@ -546,7 +552,7 @@ hr {
   /* Signup changes */
   #signup {
     position: relative;
-    background: url("../images/signup.jpg") no-repeat left center/cover;
+    background: url("../images/signup.webp") no-repeat left center/cover;
     background-position: 90%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
@@ -606,7 +612,7 @@ hr {
     width: 100vw;
     margin: 20px;
     border-radius: 50%;
-    background: url("../images/ethos.png") no-repeat center center/cover;
+    background: url("../images/ethos.webp") no-repeat center center/cover;
     position: relative;
     max-width: 300px;
     max-height: 300px;
@@ -694,7 +700,7 @@ hr {
   /* Signup Section */
   #signup {
     position: relative;
-    background: url("../images/signup.jpg") no-repeat left center/cover;
+    background: url("../images/signup.webp") no-repeat left center/cover;
     background-position: 110%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
