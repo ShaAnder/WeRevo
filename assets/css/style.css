@@ -268,7 +268,6 @@ hr {
   font-size: 60%;
   line-height: 30px;
   text-align: right;
-
 }
 
 
@@ -283,8 +282,9 @@ hr {
   opacity: 80%;
   padding: 3% 7.5% 3% 7.5%;
   width: 250px;
+  height: auto;
   position: absolute;
-  top: 50%;
+  top: 60%;
   align-items: center;
   box-shadow: 1px 1px 3px 1px var(--black-purple);
   left: 50%;
@@ -297,7 +297,7 @@ hr {
   width: 250px;
   position: absolute;
   border: 3px solid var(--off-white);
-  top: 20%;
+  top: 25%;
   /* center image */
   left: 50%;
   margin-left: -125px;
@@ -312,12 +312,14 @@ hr {
   padding: 3% 7.5% 3% 7.5%;
   width: 250px;
   position: absolute;
-  top: 90%;
+  top: 105%;
   align-items: center;
   box-shadow: 1px 1px 3px 1px var(--black-purple);
   left: 50%;
   margin-left: -125px;
   text-align: center;
+  height: auto;
+
 }
 
 .activity #activity-meditation img{
@@ -325,7 +327,7 @@ hr {
   width: 250px;
   position: absolute;
   border: 3px solid var(--off-white);
-  top: 60%;
+  top: 70%;
   /* center image */
   left: 50%;
   margin-left: -125px;
@@ -630,24 +632,64 @@ hr {
     align-self: flex-end;
   }
 
-  /* Activities Screen */
+ /* activity styling */
+
   
   #motd-cover-text {
-    background-color: var(--light-green);
+    display: block;
+    background-color: var(--off-white);
     opacity: 80%;
-    padding: 30px 30px;
-    width: 80%;
-    left: 50%;
-    position: relative;
-    top: 30px;
-    align-items: center;
+    margin-left: 20%;
+    padding: 3% 5% 3% 5%;
+    width: 75%;
+    height: 180px;
+    
   }
 
   #motd-cover-text h3{
-    font-size: 140%;
-    line-height: 30px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: right;
   }
 
+  #motd-cover-text h2{
+    font-size: 100%;
+    line-height: 40px;
+  }
+
+  .activity #activity-yoga h2 {
+    width: 300px;
+    height: 100px;
+    top: 72%;
+    left: 60%;
+    margin-left: -160px;
+    padding: 0;
+    padding-top: 35px;
+    
+  }
+  
+  .activity #activity-yoga img{
+    width: 300px;
+    top: 40%;
+    left: 60%;
+  }
+  
+  .activity #activity-meditation h2 {
+    width: 300px;
+    height: 100px;
+    top: 72%;
+    left: 83%;
+    margin-left: -160px;
+    padding: 0;
+    padding-top: 35px;
+  }
+  
+  .activity #activity-meditation img{
+    width: 300px;
+    top: 40%;
+    left: 83%;
+  }
 
   /* Signup Section */
   #signup {

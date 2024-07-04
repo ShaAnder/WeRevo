@@ -75,10 +75,7 @@ Full testing was performed with google chrome as a baseline, i thenutilized the 
 
 Screen sizes tested:
 
-Small Mobile Phone:
-  - Galazy Z fold 5
-
-Mid sized phone:
+Mobile Phone:
   - Samsung S8+
 
 Tablet Size:
@@ -89,7 +86,11 @@ Laptop / Desktop / Browser:
   - Opera Gx
   - Firefox
 
-Additional testing was taken by friends and family and any issues found were minor and could not be replicated within reasonable testing
+Additionally I tested this using both of my mobile phones and no issue was found:
+- Galaxy A33 5g
+- Samsung S5
+
+As well as this testing was taken by friends and family and any issues found were minor and could not be replicated within reasonable testing
 
 Finally I tested each feature implemented on every page and found the following results
 
