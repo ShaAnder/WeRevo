@@ -677,9 +677,8 @@ hr {
     display: block;
     background-color: var(--off-white);
     opacity: 80%;
-    margin-left: 20%;
     padding: 3% 5% 3% 5%;
-    width: 75%;
+    width: 90%;
     height: 180px;
     
   }
@@ -696,37 +695,13 @@ hr {
     line-height: 40px;
   }
 
-  .activity #activity-yoga h2 {
-    width: 300px;
-    height: 100px;
-    top: 82%;
-    left: 55%;
-    margin-left: -160px;
-    padding: 0;
-    padding-top: 35px;
-    
+  #footer-container {
+    padding-top: 1%;
   }
-  
-  .activity #activity-yoga img{
-    width: 300px;
-    top: 40%;
-    left: 55%;
-  }
-  
-  .activity #activity-meditation h2 {
-    width: 300px;
-    height: 100px;
-    top: 82%;
-    left: 83%;
-    margin-left: -160px;
-    padding: 0;
-    padding-top: 35px;
-  }
-  
-  .activity #activity-meditation img{
-    width: 300px;
-    top: 40%;
-    left: 83%;
+
+  #social-networks li {
+    font-size: 200%;
+
   }
 
 }
@@ -737,7 +712,6 @@ hr {
 @media screen and (min-width: 1500px) {
 
   /* Reasons Section */
-
   #reasons > h2 {
     font-size: 300%;
   }
@@ -787,9 +761,9 @@ hr {
     display: block;
     background-color: var(--off-white);
     opacity: 80%;
-    margin-left: 20%;
+    margin-left: 10%;
     padding: 3% 5% 3% 5%;
-    width: 75%;
+    width: 85%;
     height: 180px;
     
   }
@@ -806,38 +780,38 @@ hr {
     line-height: 40px;
   }
 
-  .activity #activity-yoga h2 {
-    width: 300px;
-    height: 100px;
-    top: 72%;
-    left: 60%;
-    margin-left: -160px;
-    padding: 0;
-    padding-top: 35px;
-    
+  /*activity link (to yoga or meditation */
+
+  #activity-container {
+    flex-direction: row;
+    top: 5%;
+    left: 70%;
+    margin-left: -340px;
   }
   
-  .activity #activity-yoga img{
+  .activity img {
     width: 300px;
-    top: 40%;
-    left: 60%;
+  }
+
+  .activity {
+    padding: 20px;
+  }
+
+  .activity h2 {
+    height: 60px;
+    font-size: 160%;
+    background-color: var(--off-white);
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 5%;  
+  }
+  /* yoga / meditation description style */
+
+  .description-text {
+    padding: 2em;
+    font-size: 130%;
   }
   
-  .activity #activity-meditation h2 {
-    width: 300px;
-    height: 100px;
-    top: 72%;
-    left: 83%;
-    margin-left: -160px;
-    padding: 0;
-    padding-top: 35px;
-  }
-  
-  .activity #activity-meditation img{
-    width: 300px;
-    top: 40%;
-    left: 83%;
-  }
 
   /* yoga / meditation page styling */
 
@@ -951,5 +925,13 @@ hr {
     font-size: 100%;
   }
 
+  #footer-container {
+    padding-top: 0%;
+  }
+
+  #social-networks li {
+    font-size: 200%;
+
+  }
 
 }
