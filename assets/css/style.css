@@ -55,7 +55,8 @@ h3 {
   font-family: var(--tenor), sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #252525;
+  color: var(--black-purple);
+  opacity: 0.7;
 }
 
 /* utility hide class */
@@ -188,10 +189,9 @@ main {
   text-align: center;
 }
 
-#why-revo > div,
-#your-best-self > div {
-  line-height: 20px;
-  margin-bottom: 20px;
+#why-us {
+  display: flex;
+  flex-direction: column;
 }
 
 #why-us p {
@@ -200,6 +200,24 @@ main {
 
 #why-us > h3 {
   color: var(--black-purple);
+}
+
+#why-revo {
+  order:0;
+}
+
+#your-best-self {
+  order: 1;
+}
+
+#why-revo div p,
+#your-best-self div p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#why-revo div h3, #your-best-self div h3 {
+  text-align: center;
 }
 
 hr {
@@ -219,9 +237,42 @@ hr {
 }
 
 #why-us-image {
+  order: 2;
+  padding: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#join {
+  text-align: center;
+}
+
+#join-us {
+  width: 90%;
+  margin: 20px auto;
+}
+
+#join-us p {
+  line-height: 20px;
+}
+
+#to-signup {
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  padding-top: 35px;
+}
+
+#to-signup a {
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  border-radius: 2px;
+  background-color: var(--dark-purple);
+  color: #fafafa;
+  font-size: 100%;
+  transition-duration: 0.4s;
 }
 
 /*------ ACTIVITIES PAGE -------*/
@@ -279,6 +330,27 @@ hr {
   margin-left: -125px;
   flex-direction: column;
   z-index: 0;
+
+}
+
+.activity h2 {
+  height: 40px;
+  background-color: var(--off-white);
+  margin-bottom: 5%;
+  text-align: center;
+  padding-top: 2%;
+
+}
+
+.activity img, .activity h2 {
+  opacity: .7;
+
+}
+
+.activity img:hover {
+  opacity: 1;
+  transition: 0.3s;
+  background-color: var(--black-purple);
 }
 
 /*------ YOGA / MEDITATION DESCRIPTION PAGE ------*/
