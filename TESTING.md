@@ -31,7 +31,7 @@ I also went through each page and tested the features vs my established user sto
 [W3C](https://validator.w3.org/) was used to validate the html and css to check for errors and consistency
 
 * [index.html]() - Passed.
-* [disciplines.html]() - Passed.
+* [activities.html]() - Passed.
 * [yoga.html]() - Passed.
 * [meditation.html]() - Passed.
 * [signup.html]() - Passed.

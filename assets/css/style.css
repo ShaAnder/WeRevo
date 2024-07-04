@@ -262,7 +262,6 @@ hr {
   text-align: right;
 }
 
-
 .activity {
   opacity: 90%;
 }
@@ -323,6 +322,10 @@ hr {
   /* center image */
   left: 50%;
   margin-left: -125px;
+}
+
+.activity-img:hover {
+  opacity : 100%;
 }
 
 /*------ YOGA / MEDITATION DESCRIPTION PAGE ------*/

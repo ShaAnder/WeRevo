@@ -123,7 +123,7 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 ### Features
 
-The website is comprised of a home page, an activities page, pages giving the user information about the disciplines of yoga and meditation as well as a signup page for future features.
+The website is comprised of a home page, an activities page, pages giving the user information about the activities of yoga and meditation as well as a signup page for future features.
 
 All Pages on the website are responsive and have:
 
@@ -147,7 +147,7 @@ This page includes some information about the company and what we do / why welln
 
 The game page displays the main page of the app, an activities page, it allows the user to view the MOTD (message of the day), which is an inspirational quote followed by being able to click on the yoga or meditation sections. 
 
-Clicking either of these sections will lead the user to the relevant page, which at the moment only contains some fun facts about yoga and meditation but in the future aims to cover guides and tutorials on how to do the disciplines correctly
+Clicking either of these sections will lead the user to the relevant page, which at the moment only contains some fun facts about yoga and meditation but in the future aims to cover guides and tutorials on how to do the activities correctly
 
 ![Activities Page Image](documentation/features/activitiespage.png)
 
