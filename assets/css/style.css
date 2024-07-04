@@ -37,13 +37,16 @@
 /*------ GENERIC STYLES ------*/
 
 body {
-  min-height: 100vh;
+  height: auto;
   min-width: 344px;
   display: flex;
   flex-direction: column;
   /* generic project styles */
   color: var(--black-purple);
   font-family: var(--sen);
+  position: relative;
+  overflow: scroll;
+  
 }
 
 h1,
@@ -223,15 +226,16 @@ hr {
 
 /*------ ACTIVITIES PAGE -------*/
 
+/* hero bg image */
 #activity-banner {
   position: relative;
   background: url("../images/activities.webp");
   background-size: cover;
-  height: 850px;
+  height: 120vh;
   background-position: 70%;
 }
 
-
+/* message of the day */
 #motd-cover-text {
   display: block;
   background-color: var(--off-white);
@@ -239,12 +243,14 @@ hr {
   padding: 3% 7.5% 3% 7.5%;
   width: 95%;
   height: 90px;
-  position: relative;
+  position: absolute;
   left: 2.5%;
   right: 2.5%;
-  top: 3%;
+  top: 10%;
+  margin-top: -9px;
   align-items: center;
   box-shadow: 1px 1px 3px 1px var(--black-purple);
+  z-index: 1;
 }
 
 #motd-cover-text h3{
@@ -262,70 +268,17 @@ hr {
   text-align: right;
 }
 
-.activity {
-  opacity: 90%;
-}
+/*activity link (to yoga or meditation */
 
-.activity #activity-yoga h2 {
-  text-decoration: none;
-  display: block;
-  background-color: var(--off-white);
-  opacity: 80%;
-  padding: 3% 7.5% 3% 7.5%;
-  width: 250px;
-  height: auto;
+#activity-container {
+  display: flex;
   position: absolute;
-  top: 60%;
-  align-items: center;
-  box-shadow: 1px 1px 3px 1px var(--black-purple);
+  top: 15%;
+  margin-top: 20%;
   left: 50%;
   margin-left: -125px;
-  text-align: center;
-}
-
-.activity #activity-yoga img{
-  height: auto;
-  width: 250px;
-  position: absolute;
-  border: 3px solid var(--off-white);
-  top: 25%;
-  /* center image */
-  left: 50%;
-  margin-left: -125px;
-  
-}
-
-.activity #activity-meditation h2 {
-  text-decoration: none;
-  display: block;
-  background-color: var(--off-white);
-  opacity: 80%;
-  padding: 3% 7.5% 3% 7.5%;
-  width: 250px;
-  position: absolute;
-  top: 105%;
-  align-items: center;
-  box-shadow: 1px 1px 3px 1px var(--black-purple);
-  left: 50%;
-  margin-left: -125px;
-  text-align: center;
-  height: auto;
-
-}
-
-.activity #activity-meditation img{
-  height: auto;
-  width: 250px;
-  position: absolute;
-  border: 3px solid var(--off-white);
-  top: 70%;
-  /* center image */
-  left: 50%;
-  margin-left: -125px;
-}
-
-.activity-img:hover {
-  opacity : 100%;
+  flex-direction: column;
+  z-index: 0;
 }
 
 /*------ YOGA / MEDITATION DESCRIPTION PAGE ------*/
@@ -414,10 +367,10 @@ hr {
 /*------ SIGNUP PAGE -------*/
 
 #signup {
+
   position: relative;
   background: url("../images/signup.webp");
-  background-size: cover;
-  background-position: 0%;
+  height: 100vh;
   padding: 20px 10% 0 10%;
   flex-grow: 1;
 }
@@ -476,18 +429,33 @@ hr {
 
 /*------ FOOTER STYLES ------*/
 
-#social-networks {
-  position: relative;
-  text-align: center;
-  padding: 20px 0;
+#footer-container {
+  padding: 2.5% 0;
+  height: 8vh;
   display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
+  position: relative;
+  bottom: 0;
+  z-index: 99;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0px -2px 0 0 var(--dark-purple);
 }
 
-#social-networks i {
-  font-size: 160%;
-  padding: 5%;
+#social-networks {
+  display: inherit;
+  flex-direction: row;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+
+#social-networks li {
+  font-size: 200%;
+  padding: 0;
+}
+
+#social-networks li a {
   color: var(--black-purple);
 }
 
