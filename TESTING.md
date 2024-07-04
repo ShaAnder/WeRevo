@@ -71,23 +71,25 @@ I also used the lighthouse chrome plugin to run checks for each page on both des
 ---
 
 ### Full Testing
+Full testing was performed with google chrome as a baseline, i thenutilized the responsive design features to test on a variety of screen sizes
 
-Full testing was performed on the following devices:
+Screen sizes tested:
 
-- Laptop:
-  - Asus Zenbook
-- Mobile Devices:
-  - Galaxy Fold (small mobile)
-  - Galaxy S8+ (mid sized phone)
-  - Ipad Mini (tablet)
+Small Mobile Phone:
+  - Galazy Z fold 5
 
-Each device tested the site using the following browsers:
+Mid sized phone:
+  - Samsung S8+
 
-- Google Chrome
-- Opera
-- Firefox
+Tablet Size:
+  - I pad mini
 
-Additional testing was taken by friends and family and no issue was found
+Laptop / Desktop / Browser:
+  - Google chrome
+  - Opera Gx
+  - Firefox
+
+Additional testing was taken by friends and family and any issues found were minor and could not be replicated within reasonable testing
 
 Finally I tested each feature implemented on every page and found the following results
 

@@ -47,6 +47,7 @@
 
 body {
   min-height: 100vh;
+  min-width: 344px;
   display: flex;
   flex-direction: column;
   /* generic project styles */
@@ -135,7 +136,7 @@ nav {
   font-size: 2rem;
 }
 
-/*------ MAIN STYLES ------*/
+/*------ LANDING PAGE ------*/
 
 main {
   /* Make main element take up any surplus space and push footer down */
@@ -150,7 +151,6 @@ main {
 #hero {
   height: 550px;
   width: 100%;
-
   background: url("../images/hero.png") no-repeat center center/cover;
   position: relative;
 }
@@ -162,7 +162,6 @@ main {
   font-size: 130%;
   position: absolute;
   bottom: 0;
-
   width: 100%;
   min-height: 120px;
   padding-top: 20px;
@@ -230,12 +229,116 @@ hr {
   justify-content: center;
 }
 
-/* Sign-up */
+/*------ ACTIVITIES PAGE -------*/
+
+#activity-banner {
+  position: relative;
+  background: url("../images/activities.jpg");
+  background-size: cover;
+  height: 850px;
+  background-position: 70%;
+}
+
+
+#motd-cover-text {
+  display: block;
+  background-color: var(--off-white);
+  opacity: 80%;
+  padding: 3% 7.5% 3% 7.5%;
+  width: 95%;
+  height: 90px;
+  position: relative;
+  left: 2.5%;
+  right: 2.5%;
+  top: 3%;
+  align-items: center;
+  box-shadow: 1px 1px 3px 1px var(--black-purple);
+}
+
+#motd-cover-text h3{
+  opacity: 100%;
+  font-size: 110%;
+  text-align: justify;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+#motd-cover-text h2{
+  opacity: 100%;
+  font-size: 60%;
+  line-height: 30px;
+  text-align: right;
+
+}
+
+
+.activity {
+  opacity: 90%;
+}
+
+.activity #activity-yoga h2 {
+  text-decoration: none;
+  display: block;
+  background-color: var(--off-white);
+  opacity: 80%;
+  padding: 3% 7.5% 3% 7.5%;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  align-items: center;
+  box-shadow: 1px 1px 3px 1px var(--black-purple);
+  left: 50%;
+  margin-left: -125px;
+  text-align: center;
+}
+
+.activity #activity-yoga img{
+  height: auto;
+  width: 250px;
+  position: absolute;
+  border: 3px solid var(--off-white);
+  top: 20%;
+  /* center image */
+  left: 50%;
+  margin-left: -125px;
+  
+}
+
+.activity #activity-meditation h2 {
+  text-decoration: none;
+  display: block;
+  background-color: var(--off-white);
+  opacity: 80%;
+  padding: 3% 7.5% 3% 7.5%;
+  width: 250px;
+  position: absolute;
+  top: 90%;
+  align-items: center;
+  box-shadow: 1px 1px 3px 1px var(--black-purple);
+  left: 50%;
+  margin-left: -125px;
+  text-align: center;
+}
+
+.activity #activity-meditation img{
+  height: auto;
+  width: 250px;
+  position: absolute;
+  border: 3px solid var(--off-white);
+  top: 60%;
+  /* center image */
+  left: 50%;
+  margin-left: -125px;
+  
+}
+
+/*------ SIGNUP PAGE -------*/
+
 #signup {
   position: relative;
   background: url("../images/signup.jpg");
   background-size: cover;
-  background-position: 75%;
+  background-position: 0%;
   padding: 20px 10% 0 10%;
   flex-grow: 1;
 }
@@ -291,6 +394,7 @@ hr {
 /*------ FOOTER STYLES ------*/
 
 #social-networks {
+  position: relative;
   text-align: center;
   padding: 20px 0;
   display: flex;
@@ -310,6 +414,7 @@ hr {
     top: 110px;
   }
 }
+
 
 /* Media Query: Tablets and larger (768px+) */
 @media screen and (min-width: 768px) {
@@ -382,6 +487,40 @@ hr {
     align-self: flex-end;
   }
 
+  /* activity styling */
+
+
+
+  .activity #activity-yoga h2 {
+    width: 300px;
+    top: 60%;
+    left: 30%;
+    margin-left: -160px;
+    
+  }
+  
+  .activity #activity-yoga img{
+    width: 300px;
+    top: 30%;
+    left: 30%;
+    margin-left: -160px;   
+  }
+  
+  .activity #activity-meditation h2 {
+    width: 300px;
+    top: 60%;
+    left: 73%;
+    margin-left: -160px;
+  }
+  
+  .activity #activity-meditation img{
+    width: 300px;
+    top: 30%;
+    left: 73%;
+    margin-left: -160px;
+    
+  }
+
   /* Signup changes */
   #signup {
     position: relative;
@@ -406,6 +545,7 @@ hr {
     background-color: #fafafa;
     color: #454b1b;
   }
+
 }
 
 /*------ MEDIA QUERY BIGGER TABLET ------*/
@@ -425,6 +565,7 @@ hr {
 /*------ MEDIA QUERY LAPTOP / DESKTOP 1200 + ------*/
 
 @media screen and (min-width: 1200px) {
+
   /* Reasons Section */
 
   #reasons > h2 {
@@ -468,6 +609,25 @@ hr {
   #your-best-self > div {
     align-self: flex-end;
   }
+
+  /* Activities Screen */
+  
+  #motd-cover-text {
+    background-color: var(--light-green);
+    opacity: 80%;
+    padding: 30px 30px;
+    width: 80%;
+    left: 50%;
+    position: relative;
+    top: 30px;
+    align-items: center;
+  }
+
+  #motd-cover-text h3{
+    font-size: 140%;
+    line-height: 30px;
+  }
+
 
   /* Signup Section */
   #signup {
@@ -524,4 +684,6 @@ hr {
     color: #fafafa;
     font-size: 100%;
   }
+
+
 }
