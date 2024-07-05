@@ -1,6 +1,6 @@
 # WeRevo
 
-![WeRevo shown on a variety of screen sizes](assets/images/weRevo.png)
+![WeRevo shown on a variety of screen sizes](assets/images/title-example.webp)
 
 Visit the deployed site: [WeRevo](https://shaAnder.github.io/weRevo/)
 
@@ -96,17 +96,17 @@ From this color palette we used the following colors.
 
 - I also used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text. as these are the most common you will generally see in webdesign
 
-<img src="documentation/color-hex-purple.jpg" width=300px>
+<img src="documentation/color-hex-purple.webp" width=300px>
 
 ### Typography
 
 For our typography I opted for two primary fonts, firstly I went with [Sen](https://fonts.google.com/specimen/Sen?query=sen#glyphs), this font is geometric and neutral font with a soft, humanist touch, it's easy to read and is practical. Similar to how we want to our application to look.
 
-<img src="documentation/sen-example.png" width=500px>
+<img src="documentation/sen-example.webp" width=500px>
 
 For a secondary font I opted for [Tenor](https://fonts.google.com/specimen/Tenor+sans) this is a tried and true font that works in every occasion, and again looks neat, sensible and is great for paragraphs and headings alike.
 
-<img src="documentation/tenor-example.png" width=500px>
+<img src="documentation/tenor-example.webp" width=500px>
 
 ### Imagery
 
@@ -116,10 +116,10 @@ As the app is about mindfulness and meditation I have opted to fill it with imag
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-![Home Page](documentation/wireframes/home.png)
-![Signup Page](documentation/wireframes/signup.png)
-![Activity View](documentation/wireframes/activityview.png)
-![Activity Example](documentation/wireframes/activityexample.png)
+![Home Page](documentation/wireframes/home.webp)
+![Signup Page](documentation/wireframes/signup.webp)
+![Activity View](documentation/wireframes/activity-view.webp)
+![Activity Example](documentation/wireframes/activity-example.webp)
 
 ### Features
 
@@ -129,16 +129,16 @@ All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
 
-  ![favicon](documentation/favicon-image.png)
+  ![favicon](documentation/favicon-image.webp)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![WeRevo Title](documentation/title.png)
+  ![WeRevo Title](documentation/title.webp)
 
 #### The Home Page
 
 The home page of WeRevo is a simple yet elegant page mirroring the themes and imagery of wellness, I took inspiration from the love running project for the landing page as it fits the idea of simplistic and beautiful. While also being detailed yet to the point. Allowing the user to scroll 
 
-![Home page image](documentation/features/indexpage.png)
+![Home page image](documentation/features/index-page.webp)
 
 This page includes some information about the company and what we do / why wellness is so important.
 
@@ -149,17 +149,24 @@ The game page displays the main page of the app, an activities page, it allows t
 
 Clicking either of these sections will lead the user to the relevant page, which at the moment only contains some fun facts about yoga and meditation but in the future aims to cover guides and tutorials on how to do the activities correctly
 
-![Activities Page Image](documentation/features/activitiespage.png)
+![Activities Page Image](documentation/features/activities-page.webp)
 
-![Yoga Page Image](documentation/features/yogapage.png)
+![Yoga Page Image](documentation/features/yoga-page.webp)
 
-![Meditation Page Image](documentation/features/meditationpage.png)
+![Meditation Page Image](documentation/features/meditation-page.webp)
 
 #### The Signup Page
 
-Finally we have the signup page, this is a page that for now links to code institutes form dump, but as a planned feature will allow a user to signup to the website, to allow them to save their favourites, submit new ideas and get wellness tips sent to them via a newsletter.
+Then we have the signup page, this is a page that for now links to code institutes form dump, but as a planned feature will allow a user to signup to the website, to allow them to save their favourites, submit new ideas and get wellness tips sent to them via a newsletter.
 
-![Signup Page Image](documentation/features/signuppage.png)
+![Signup Page Image](documentation/features/signup-page.webp)
+
+#### The Confirm Page
+
+Finally we have the confirm page, this is a page that allows us to give confirmation of signup the user will be redirected here. There's a small thank you message followed by a link to return home.
+
+![Signup Page Image](documentation/features/confirm-page.webp)
+
 
 #### Future Implementations
 
