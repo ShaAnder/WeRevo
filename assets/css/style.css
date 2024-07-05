@@ -79,6 +79,15 @@ h3 {
   transition-duration: 0.4s;
 }
 
+/* styling for all hr lines */
+
+hr {
+  border-top: 1px solid var(--black-purple);
+  margin: 5px auto;
+  width: 100%;
+  text-align: center;
+}
+
 /* utility hide class */
 
 .hidden {
@@ -108,6 +117,14 @@ header a {
   color: inherit;
 }
 
+#logo {
+  transition: .3s;
+}
+
+#logo:hover {
+  color:var(--light-purple)
+}
+
 #menu {
   font-size: 150%;
   letter-spacing: 4px;
@@ -116,6 +133,12 @@ header a {
 
 #menu > li {
   margin-bottom: 1em;
+  transition: .3s;
+}
+
+
+#menu > li:hover {
+  color:var(--light-purple);
 }
 
 .active {
@@ -209,8 +232,6 @@ main {
   text-align: center;
 }
 
-
-
 #why-us {
   display: flex;
   flex-direction: column;
@@ -243,14 +264,6 @@ main {
   text-align: center;
 }
 
-hr {
-  border-top: 1px solid var(--black-purple);
-  margin: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 95%;
-  text-align: center;
-}
 
 #circle-cover-bg {
   height: 90vw;
@@ -273,13 +286,14 @@ hr {
   text-align: center;
 }
 
-#join-us {
-  width: 90%;
-  margin: 20px auto;
+#join-us hr {
+  width: 80%;
 }
 
 #join-us p {
-  line-height: 20px;
+  width: 80%;
+  margin: 1px auto 1px auto;
+
 }
 
 
@@ -462,7 +476,7 @@ hr {
   right: 7.5%;
   width: 85%;
   color: #ffffff;
-  background-color: rgba(60, 60, 60, 0.6);
+  background-color: rgba(60,60,60, 0.6);
   padding: 20px;
   line-height: 20px;
 }
@@ -473,13 +487,16 @@ hr {
 }
 
 #signup-form h2 {
-  color: var(--lightest-purple);
+  opacity: 1;
+  color: white;
+  font-size: 30px;
+  line-height: 25px;
   margin-bottom: 20px;
 }
 
 .text-input {
   background: transparent;
-  color: var(--lightest-purple);
+  color: white;
   border: 1px solid #fafafa;
   border-radius: 2px;
   height: 25px;
@@ -520,17 +537,16 @@ hr {
 
 #confirmation {
   height: 100vh;
-  background-color: var(--light-purple);
+  background: url("../images/yoga3.webp") no-repeat center center/cover;
 }
 
 #thank-you-container {
   position: relative;
+  margin: auto;
   top: 40%;
   margin-top: -60px;
-  left: 50%;
-  margin-left: -162px;
   width: 90%;
-  background-color: rgba(60, 60, 60, 0.6);
+  background-color: rgba(60,60,60, 0.6);
   padding: 20px;
   text-align: center;
   color: white;
@@ -547,6 +563,11 @@ hr {
   line-height: 50px;
   font-size: 200%;
   color: white;
+}
+
+.page-nav-btn a:hover {
+  background-color: var(--lightest-purple);
+  color: var(--black-purple);
 }
 
 /*------ FOOTER STYLES ------*/
@@ -714,12 +735,10 @@ hr {
     top: 50%;
   }
 
-
   .radio-buttons div {
     font-size: 20px;
     padding-right: 15px;
   }
-  
   
 }
 
@@ -807,6 +826,20 @@ hr {
   #your-best-self {
     order: 1;
     line-height: 0px;
+  }
+
+  #join-us h3 {
+    font-size: 150%;
+  }
+
+  #join-us hr {
+    width: 45%;
+  }
+  
+  #join-us p {
+    width: 80%;
+    margin: 1px auto 1px auto;
+  
   }
 
   /* activity styling */
