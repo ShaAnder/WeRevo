@@ -262,3 +262,9 @@ To clone the repository:
 ## Testing
 
 Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+
+## Final Declaration of authenticity and credit.
+
+I declare that the work in this readme and code base is of my own design and that no plagarism was committed in creating this work. 
+
+All images are AI generated using [openai](https://openart.ai/create)
