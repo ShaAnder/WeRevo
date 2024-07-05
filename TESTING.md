@@ -30,11 +30,21 @@ I also went through each page and tested the features vs my established user sto
 
 [W3C](https://validator.w3.org/) was used to validate the html and css to check for errors and consistency
 
-* [index.html]() - Passed.
-* [activities.html]() - Passed.
-* [yoga.html]() - Passed.
-* [meditation.html]() - Passed.
-* [signup.html]() - Passed.
+Index - Passed.
+![index.html](testing/index-validation.webp) 
+Activities - Passed.
+![activities.html](testing/index-validation.webp) 
+Yoga - Passed.
+![yoga.html](testing/index-validation.webp) 
+Meditation - Passed.
+![meditation.html](testing/index-validation.webp) 
+Signup - Passed.
+![signup.html](testing/index-validation.webp) 
+Confirm - Passed.
+![confirm.html](testing/index-validation.webp) 
+Style.css - Passed.
+![style.css](testing/index-validation.webp) 
+
 
 ---
 
