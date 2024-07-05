@@ -458,7 +458,7 @@ main {
 #signup {
 
   position: relative;
-  background: url("../images/signup.webp");
+  background: url("../images/signup.webp") no-repeat center center/cover;
   height: 100vh;
   padding: 20px 10% 0 10%;
   flex-grow: 1;
