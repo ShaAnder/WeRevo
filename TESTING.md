@@ -50,15 +50,15 @@ Style.css - Passed.
 
 ### Lighthouse
 
-I also used the lighthouse chrome plugin to run checks for each page on both desktop and mobile view
+I also used the lighthouse chrome plugin to run checks for each page on both desktop and mobile view. I focued my efforts on attaining a high level of accessibility, best practices and seo, performance was attained where it was able but seeing as we were not tought about website optimization yet it wasn't high on my list of priorities.
 
 ### Desktop Results
 
-(images here)
+
 
 ### Mobile Results
 
-(images here)
+
 
 ---
 
