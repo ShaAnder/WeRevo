@@ -12,6 +12,7 @@
       content="WeRevo, yoga, meditation, mindfulness, Dublin, sport, exercise, calm"
     >
     <title>WeRevo</title>
+    <!-- Icons -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -26,6 +27,9 @@
       type="image/png"
       sizes="16x16"
       href="assets/favicon/16x16.png">
+
+    <!-- Font preload for optimization -->
+
     <link
       rel="preload"
       href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
@@ -36,7 +40,7 @@
       href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" href="assets/css/style.css">
+
     <noscript>
       <link
           href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
@@ -49,6 +53,17 @@
           rel="stylesheet"
           type="text/css">
     </noscript>
+
+    <!-- Image Preload -->
+
+    <link rel="preload" as="image" href="assets/images/activities.webp">
+    <link rel="preload" as="image" href="assets/images/yoga.webp">
+    <link rel="preload" as="image" href="assets/images/meditation.webp">
+
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
   </head>
   <body>
     <!-- Header for our WeRevo project will hold the content we designate as the header-->

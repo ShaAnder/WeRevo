@@ -12,6 +12,7 @@
       content="WeRevo, yoga, meditation, mindfulness, Dublin, sport, exercise, calm"
     >
     <title>WeRevo</title>
+    <!-- Icons -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -26,6 +27,9 @@
       type="image/png"
       sizes="16x16"
       href="assets/favicon/16x16.png">
+
+    <!-- Font preload for optimization -->
+
     <link
       rel="preload"
       href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
@@ -36,7 +40,7 @@
       href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" href="assets/css/style.css">
+
     <noscript>
       <link
           href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
@@ -49,6 +53,15 @@
           rel="stylesheet"
           type="text/css">
     </noscript>
+
+    <!-- Image Preload -->
+
+    <link rel="preload" as="image" href="assets/images/signup.webp">
+
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
   </head>
   <body>
     <!-- Header for our WeRevo project will hold the content we designate as the header-->
@@ -62,9 +75,9 @@
       </label>
       <nav>
         <ul id="menu">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="activities.html">Activities</a></li>
-          <li><a href="signup.html" class="active">Sign Up</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
         </ul>
       </nav>
     </header>
