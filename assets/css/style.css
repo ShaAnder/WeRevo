@@ -59,6 +59,26 @@ h3 {
   opacity: 0.7;
 }
 
+/* general button style for nav buttons on index / confirm page */
+
+.page-nav-btn {
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  padding-top: 35px;
+}
+
+.page-nav-btn a {
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  border-radius: 2px;
+  background-color: var(--dark-purple);
+  color: #fafafa;
+  font-size: 100%;
+  transition-duration: 0.4s;
+}
+
 /* utility hide class */
 
 .hidden {
@@ -262,23 +282,6 @@ hr {
   line-height: 20px;
 }
 
-#to-signup {
-  width: 100%;
-  height: 100px;
-  padding: 0;
-  padding-top: 35px;
-}
-
-#to-signup a {
-  text-decoration: none;
-  margin-top: 20px;
-  padding: 15px 32px;
-  border-radius: 2px;
-  background-color: var(--dark-purple);
-  color: #fafafa;
-  font-size: 100%;
-  transition-duration: 0.4s;
-}
 
 /*------ ACTIVITIES PAGE -------*/
 
@@ -454,13 +457,19 @@ hr {
 
 #signup-form {
   position: absolute;
-  top: 25px;
+  top: 50%;
+  margin-top: -203px;
   right: 7.5%;
   width: 85%;
   color: #ffffff;
   background-color: rgba(60, 60, 60, 0.6);
   padding: 20px;
   line-height: 20px;
+}
+
+::placeholder {
+  color:white;
+  opacity: 0.6;
 }
 
 #signup-form h2 {
@@ -480,10 +489,13 @@ hr {
 }
 
 .radio-buttons {
-  display: inline-block;
-  justify-items: center;
+  display: flex;
+  flex-direction: row;
   letter-spacing: 1px;
-  width: 95%;
+}
+
+.radio-buttons div {
+  padding-right: 10px;
 }
 
 .join-button {
@@ -502,6 +514,39 @@ hr {
 .join-button:hover {
   background-color: var(--lightest-purple);
   color: var(--black-purple);
+}
+
+/*------ CONFIRM PAGE ------*/
+
+#confirmation {
+  height: 100vh;
+  background-color: var(--light-purple);
+}
+
+#thank-you-container {
+  position: relative;
+  top: 40%;
+  margin-top: -60px;
+  left: 50%;
+  margin-left: -162px;
+  width: 90%;
+  background-color: rgba(60, 60, 60, 0.6);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+#thank-you-container > p {
+  line-height: 25px;
+  font-size: 120%;
+ 
+}
+
+#thank-you-container > h3 {
+  line-height: 50px;
+  font-size: 200%;
+  color: white;
 }
 
 /*------ FOOTER STYLES ------*/
@@ -539,7 +584,7 @@ hr {
 /*------ MEDIA QUERY LARGER PHONES 390 + ------*/
 @media screen and (min-width: 390px) {
   #signup-form {
-    top: 110px;
+    top: 50%;
   }
 }
 
@@ -607,7 +652,6 @@ hr {
 
   /* activity styling */
 
-  
   #motd-cover-text {
     height: 180px;
   }
@@ -654,7 +698,6 @@ hr {
     font-size: 130%;
   }
   
-
   /* Signup changes */
   #signup {
     position: relative;
@@ -668,10 +711,16 @@ hr {
     max-width: 400px;
     position: absolute;
     right: 5%;
-    top: 200px;
+    top: 50%;
   }
 
 
+  .radio-buttons div {
+    font-size: 20px;
+    padding-right: 15px;
+  }
+  
+  
 }
 
 /*------ MEDIA QUERY BIGGER TABLET ------*/
@@ -712,7 +761,6 @@ hr {
   }
 
 }
-
 
 /*------ MEDIA QUERY DESKTOP 1280 + ------*/
 
@@ -896,10 +944,11 @@ hr {
 
   #signup-form {
     width: 500px;
-    height: 570px;
+    height: 430px;
     position: absolute;
     right: 5%;
-    top: 200px;
+    top: 50%;
+    margin-top: -215px;
   }
 
   .text-input {
@@ -913,19 +962,16 @@ hr {
     margin: 5px 0 20px 0;
   }
 
-  .radio-buttons {
-    display: inline-block;
-    justify-items: center;
-    font-size: 130%;
-    line-height: 40px;
-    letter-spacing: 1px;
-    width: 95%;
+  .radio-buttons div {
+    font-size: 20px;
+    padding-right: 15px;
   }
+  
 
   .join-button {
-    width: 300px;
+    width: 250px;
     height: 70px;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 15px 32px;
     border-radius: 2px;
     color: #fafafa;

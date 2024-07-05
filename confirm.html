@@ -53,87 +53,18 @@
     <!-- Main section for our content-->
 
     <main>
-      <section id="signup">
-        <form
-          id="signup-form"
-          action="confirm.html"
-        >
-          <h2>
-            <i class="fa-solid fa-heart-pulse"></i> Let's Get Started!
-          </h2>
+      <section>
+        <div  id="confirmation">
+            <div id="thank-you-container">
+                <h3>THANK YOU!</h3>
+                <p>We have recieved your data and are currently processing it!</p>
+                <p>Welcome to WeRevo!</p>
 
-          <label for="first-name">First Name</label>
-          <input
-            type="text"
-            id="first-name"
-            class="text-input"
-            name="first-name"
-            placeholder="First Name"
-            required
-            pattern="^\S+$"
-          />
-
-          <br />
-          <label for="last-name">Last Name</label>
-          <input
-            type="text"
-            id="last-name"
-            class="text-input"
-            name="last-name"
-            placeholder="Last Name"
-            required
-            pattern="^\S+$"
-          />
-
-          <br />
-          <label for="email-address">Email Address</label>
-          <input
-            type="email"
-            id="email-address"
-            class="text-input"
-            name="email"
-            placeholder="Email@Address"
-            required
-            pattern="^\S+$"
-          />
-
-          <br />
-
-          <div class="radio-buttons">
-            <div>
-              <label for="meditation">Meditation</label>
-              <input
-                type="radio"
-                name="wellness-preference"
-                id="meditation"
-                value="meditation"
-                required
-              /><br />
+                <div class="page-nav-btn">
+                    <a href="home.html">Home</a>
+                  </div>
             </div>
-            <div>
-              <label for="yoga">Yoga</label>
-              <input
-                type="radio"
-                name="wellness-preference"
-                id="yoga"
-                value="yoga"
-                required
-              /><br />
-            </div>
-            <div>
-              <label for="all">Both</label>
-              <input
-                type="radio"
-                name="wellness-preference"
-                id="all"
-                value="all"
-                required
-              /><br />
-            </div>
-          </div>
-
-          <button type="submit" class="join-button">Let's Begin!</button>
-        </form>
+        </div>
       </section>
     </main>
 
