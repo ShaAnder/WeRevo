@@ -16,7 +16,7 @@ There is never a bad time to practice bettering your mental and physical health.
 ![GitHub contributors](https://img.shields.io/github/contributors/shaAnder/weRevo?color=orange&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/shaAnder/weRevo?color=yellow&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/shaAnder/weRevo?color=green&style=for-the-badge)
-![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2FshaAnder.github.io%2FweRevo%2F)
+![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fshaander.github.io%2FWeRevo%2F)
 
 ## CONTENTS
 
