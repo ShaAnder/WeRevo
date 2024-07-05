@@ -134,15 +134,14 @@ header a {
 #menu > li {
   margin-bottom: 1em;
   transition: .3s;
+  font-size: 100%;
 }
 
 
 #menu > li:hover {
   color:var(--light-purple);
-}
-
-.active {
-  border-bottom: 1px solid var(--black-purple);
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Navbar styles + dropdown toggle */
@@ -590,6 +589,7 @@ main {
   list-style: none;
   width: 100%;
   justify-content: space-evenly;
+
 }
 
 
@@ -600,6 +600,11 @@ main {
 
 #social-networks li a {
   color: var(--black-purple);
+  transition: 0.4s;
+}
+
+#social-networks li a:hover {
+  color: var(--light-purple);
 }
 
 /*------ MEDIA QUERY LARGER PHONES 390 + ------*/
