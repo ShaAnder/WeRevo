@@ -179,23 +179,26 @@ main {
 /* Reasons Section */
 
 #reasons {
-  width: 90%;
+  width: 85%;
   margin: 20px auto;
 }
 
 #reasons > h2 {
-  font-size: 230%;
+  font-size: 210%;
   margin-bottom: 20px;
   text-align: center;
 }
+
+
 
 #why-us {
   display: flex;
   flex-direction: column;
 }
 
-#why-us p {
+#why-us p, #your-best-self p {
   padding: 0 5px;
+  text-align: center;
 }
 
 #why-us > h3 {
@@ -222,7 +225,11 @@ main {
 
 hr {
   border-top: 1px solid var(--black-purple);
-  margin: 5px 0;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 95%;
+  text-align: center;
 }
 
 #circle-cover-bg {
@@ -718,45 +725,44 @@ hr {
 
   #why-us {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    font-size: 110%;
+    text-align: center;
+    margin: 30px;
+    width: 95%;
+  }
+
+ 
+  #why-us #why-revo h3, #why-us #your-best-self h3 {
+    font-size: 150%;
+  } 
+
+  #why-us #why-revo p, #why-us #your-best-self p {
+    font-size: 150%;
+    line-height:26px;
+    
   }
 
   #circle-cover-bg {
-    height: 100vw;
-    width: 100vw;
     margin: 20px;
     border-radius: 50%;
     background: url("../images/ethos.webp") no-repeat center center/cover;
     position: relative;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
   }
 
-  #why-us div {
-    flex: 1;
-  }
 
   #why-us-image {
-    order: 0;
+    width: 290px;
+
   }
 
   #your-best-self {
     order: 1;
+    line-height: 0px;
   }
 
-  #why-us > div {
-    align-self: flex-start;
-  }
+  /* activity styling */
 
-  #your-best-self > div {
-    align-self: flex-end;
-  }
-
- /* activity styling */
-
-  
   #motd-cover-text {
     display: block;
     background-color: var(--off-white);
@@ -805,6 +811,7 @@ hr {
     text-align: center;
     padding-top: 5%;  
   }
+
   /* yoga / meditation description style */
 
   .description-text {
@@ -927,6 +934,7 @@ hr {
 
   #footer-container {
     padding-top: 0%;
+    height:50px;
   }
 
   #social-networks li {
