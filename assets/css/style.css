@@ -184,8 +184,8 @@ main {
 
 /* hero content */
 #hero {
-  height: auto;
   width: 100%;
+  height: 540px;
   background: url("../images/hero.webp") no-repeat center center/cover;
   position: relative;
 }
