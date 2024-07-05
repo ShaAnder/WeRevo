@@ -54,11 +54,15 @@ I also used the lighthouse chrome plugin to run checks for each page on both des
 
 ### Desktop Results
 
+The desktop results all performed similarly and as expected, barring small fluctuations in performance they all looked like the following:
 
+![Desktop Lighthouse Results](testing/desktop.webp)
 
 ### Mobile Results
 
+The mobile results were more of the same the performance was a bit lower due to the sizing of the images, however adding preloaded images in seemed to fix this.
 
+![Mobile Lighthouse Results](testing/mobile.webp)
 
 ---
 
@@ -106,34 +110,20 @@ Additionally I tested this using both of my mobile phones and no issue was found
 
 As well as this testing was taken by friends and family and any issues found were minor and could not be replicated within reasonable testing
 
-Finally I tested each feature implemented on every page and found the following results
-
-`Home Page / Landing`
+Finally I tested each feature implemented and got the following results
 
 | Feature         | Expected Outcome                            | Testing Performed | Result                     | Pass/Fail |
 | --------------- | ------------------------------------------- | ----------------- | -------------------------- | --------- |
 | The Sites title | Link directs the user back to the home page | Clicked title     | Directed back to home page | Pass      |
+| The Nav Bar     | Links to various pages worked               | Clicked Links     | Directed to various pages  | Pass      |
+| All buttons - hover effect | All buttons changed color when hovered | Hovered over buttons on page | Each button displayed correct styling | Pass |
+| Interactive Elements | All Interactive elements changed color when hovered | hovered over elements and links | Links changed color / moved | Pass |
+| Index Page Sign up | Links user to sign up page | clicked button | User directed to signup page | Pass |
+| Rest of navigation links | Links to various pages all work correctly | Clicked through every link on a variety of devices | Links worked as expected | Pass |
+| Sign up to confirmation | User signs up and gets confirmation they signed up | Filled in user data and submitted | Was sent to confirm page | Pass |
+| Buttons to go back to home | Added a button to return home on the confirm page designed to take user home | Clicked button | Sent to home | Pass |   
 
-`Signup`
+### Known Bugs 
 
-| Feature         | Expected Outcome                            | Testing Performed | Result                     | Pass/Fail |
-| --------------- | ------------------------------------------- | ----------------- | -------------------------- | --------- |
-| The Sites title | Link directs the user back to the home page | Clicked title     | Directed back to home page | Pass      |
-
-`Activity View`
-
-| Feature         | Expected Outcome                            | Testing Performed | Result                     | Pass/Fail |
-| --------------- | ------------------------------------------- | ----------------- | -------------------------- | --------- |
-| The Sites title | Link directs the user back to the home page | Clicked title     | Directed back to home page | Pass      |
-
-`Activity View Cont`
-
-| Feature         | Expected Outcome                            | Testing Performed | Result                     | Pass/Fail |
-| --------------- | ------------------------------------------- | ----------------- | -------------------------- | --------- |
-| The Sites title | Link directs the user back to the home page | Clicked title     | Directed back to home page | Pass      |
-
-`Activity Example`
-
-| Feature         | Expected Outcome                            | Testing Performed | Result                     | Pass/Fail |
-| --------------- | ------------------------------------------- | ----------------- | -------------------------- | --------- |
-| The Sites title | Link directs the user back to the home page | Clicked title     | Directed back to home page | Pass      |
+Currently there is one known bug, on various preview windows, the zoom on the page is enhanced killing functionality of the app, upon swapping back to a different device layout it returns to normal,
+this is a bug that has only been observed on firefox and is intermittent, I have not been able to replicate the bug on any of my physical devices or on google chrome / opera gx. Nor does the bug appear on deployed pages. I am currently looking into a fix however i suspect this is an issue with the firefox dev tools. 
