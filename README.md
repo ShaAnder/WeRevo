@@ -1,6 +1,6 @@
 # WeRevo
 
-![WeRevo shown on a variety of screen sizes](assets/images/title-example.webp)
+![WeRevo shown on a variety of screen sizes](documentation/features/title-example.webp)
 
 Visit the deployed site: [WeRevo](https://shaAnder.github.io/weRevo/)
 
